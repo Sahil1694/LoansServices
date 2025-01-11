@@ -5,6 +5,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Optional;
 
+
+/**
+ * This class is used to provide the current auditor of the application
+ */
 @Component("auditAwareImpl")
 public class AuditAwareImpl implements AuditorAware<String> {
 
